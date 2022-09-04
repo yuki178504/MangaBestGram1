@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #191970
+}
+
+.navbar-logo {
+  font-family: 'Henny Penny', cursive;
+}
+
+.nav-title {
+  letter-spacing: 0.05em;
+  font-size: 25px;
+  text-decoration: none;
+  color: white
+}
+
+.nav-ul {
+  display: flex;
+  padding-top: 8px;
+}
+
+.nav-li {
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.nav-li-text {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-li-text:hover {
+  opacity: 0.5;
+
+}
