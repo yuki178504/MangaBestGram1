@@ -1,24 +1,31 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .container {
-    background-color: #191970
+  margin-top: auto;
+  background-color: #191970
 }
 
 .copylight {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .container-ul {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .container-list {
-    color: white;
-    margin-right: 10px;
-    text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
 .container-list:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
